@@ -1,5 +1,6 @@
 /* eslint-disable quotes */
 import { Footer, Navbar } from "../components";
+import SideBar from "../components/SideBar";
 import {
   About,
   Explore,
@@ -12,8 +13,9 @@ import {
 } from "../sections";
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div className="bg-primary-black overflow-hidden relative">
     <Navbar />
+    <SideBar />
     <Hero />
 
     <div className="relative">
@@ -35,7 +37,6 @@ const Page = () => (
       <div className="gradient-0.3 z-0" />
       <Feedback />
     </div>
-
     <Footer />
   </div>
 );

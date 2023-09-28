@@ -10,7 +10,7 @@ import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
 import { startingFeatures } from "../constants";
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="get-started">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

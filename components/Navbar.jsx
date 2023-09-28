@@ -8,6 +8,7 @@ import { navVariants } from "../utils/motion";
 
 const Navbar = () => (
   <motion.nav
+    id="home"
     variants={navVariants}
     initial="hidden"
     whileInView="show"

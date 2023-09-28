@@ -8,7 +8,7 @@ import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 
 const About = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="about">
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}
@@ -22,7 +22,7 @@ const About = () => (
         variants={fadeIn("uo", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span>
+        <span className="font-extrabold text-white">Metaverse </span>
         is a new thing in the future, where you can enjoy the virtual world by
         feeling like it's really real, you can feel what you feel in this
         metaverse world, because this is really{" "}
